@@ -1,12 +1,9 @@
-# Node dependencies
+# Ignore everything
+*
+
+# Except backend folder
+!analytics-backend/
+
+# But ignore backend node_modules and env
 analytics-backend/node_modules/
-
-# Environment variables
 analytics-backend/.env
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
