@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except backend folder
+!analytics-backend/
+
+# But ignore backend node_modules and env
+analytics-backend/node_modules/
+analytics-backend/.env
