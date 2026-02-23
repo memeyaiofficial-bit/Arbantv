@@ -1,0 +1,18 @@
+{
+  "name": "arban-tv-server",
+  "version": "1.0.0",
+  "description": "Arban TV resumable upload server",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "node-appwrite": "^13.0.0",
+    "uuid": "^9.0.1"
+  }
+}
